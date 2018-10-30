@@ -8,3 +8,9 @@ dependencies {
 
 sourceCompatibility = "7"
 targetCompatibility = "7"
+
+jar {
+    manifest {
+        attributes 'Lint-Registry': 'com.deepankur.lints.lint_library.CustomLintRegistry'
+    }
+}
