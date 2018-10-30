@@ -12,7 +12,7 @@ class TextAppearanceIssue {
     public static final String EXPLANATION = "We should use textAppearance to style a TextView in order to provide consistent design";
     private static final Category CATEGORY = Category.TYPOGRAPHY;
     private static final int PRIORITY = 4;
-    private static final Severity SEVERITY = Severity.WARNING;
+    private static final Severity SEVERITY = Severity.ERROR;
 
     public static final Issue ISSUE = Issue.create(
             ID,
