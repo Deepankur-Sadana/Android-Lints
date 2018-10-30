@@ -2,6 +2,8 @@ apply plugin: 'java-library'
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
+    compileOnly 'com.android.tools.lint:lint-api:26.1.2'
+    compileOnly 'com.android.tools.lint:lint-checks:26.1.2'
 }
 
 sourceCompatibility = "7"
